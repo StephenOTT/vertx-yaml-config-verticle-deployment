@@ -1,0 +1,13 @@
+{
+  "//": "This package.json file is used for downloading npm packages.",
+  "repository" :{
+    "type" : "git"
+  , "url" : "https://github.com/StephenOTT/verticle-deploy-by-config-vertx"
+  },
+  "dependencies":{
+    "lodash": "4.17.5"
+  },
+  "devDependencies":{
+  },
+  "license": "MIT"
+}
