@@ -52,8 +52,6 @@ Starting vert.x application...
 090eba58-623c-4288-9364-a196d8f866b3
 YAML_PATH ENV variable is null or a empty string. Falling back to default-config.yaml
 YAML_PATH_SCAN_PERIOD ENV variable is null or is not an integer. Falling back to value: 5000
-Yaml Store Config: {"type":"file","format":"yaml","config":{"path":"/Users/MyUser/Documents/GitHub/verticle-deploy-by-config-vertx/build/resources/main/default-config.yaml"},"optional":false}
-{"scanPeriod":5000,"stores":[{"type":"file","format":"yaml","config":{"path":"/Users/MyUser/Documents/GitHub/verticle-deploy-by-config-vertx/build/resources/main/default-config.yaml"},"optional":false}]}
 Starting primary verticle
 Succeeded in deploying verticle
 Detected changed in config yaml

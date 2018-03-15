@@ -39,13 +39,11 @@ var yamlStore = {
   },
   "optional": false
 }
-console.log('Yaml Store Config: ' + JSON.stringify(yamlStore))
 
 var retrieverOptions = {
   "scanPeriod": yamlPathScanPeriod,
   "stores":[yamlStore]
   }
-console.log(retrieverOptions)
 
 var retriever = ConfigRetriever.create(vertx, retrieverOptions)
 
